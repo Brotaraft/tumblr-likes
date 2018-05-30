@@ -2,8 +2,8 @@ require 'rubygems'
 require 'httparty'
 
 # Configuration
-api_key      = ENV["TUMBLR_API_KEY"]
-username     = ARGV[0] || ENV["TUMBLR_USERNAME"]
+api_key      = ENV["RnXet1EvKvZDpq2V5BbqkFY8FCaQZaj5iO8DLHfB9fQkYmTI7Z"]
+username     = ARGV[0] || ENV["brotaraft"]
 image_dir    = ARGV[1] || "images"
 offset       = 0
 limit        = 20  # number of posts requested each time
